@@ -1,4 +1,7 @@
 body {
-    background-image: url("assets/images/alaskaMountian.png");
+    background-image: url("../alaskaMountian.png");
     background-color: aqua;
+    display:flex;
+    flex-wrap: wrap;
+
 }
