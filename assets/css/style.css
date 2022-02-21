@@ -1,8 +1,70 @@
+:root {
+    --primary-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+nav {
+    font-family: var(--primary-font-family);
+}
+
 body {
-    background-image: url("../singapore.jpeg");
     background-color: aqua;
-    display:flex;
+    display:block;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: var(--primary-font-family);
+    display: flex;
     flex-wrap: wrap;
+} 
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
 
+.apps {
+    display:inline-block;
+    
+}
 
+.run-buddy {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #024e76;
+    color: #fce138;
+    font-family: var(--primary-font-family);
+    display: inline-block;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+}
+
+lightbulb {
+    height: 100px;
+    width: 100px;
+} 
+
+.horiseon {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #2a607c;
+    color: white;
+    font-family: var(--primary-font-family);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    font-family: var(--primary-font-family);
+}
+
+.bitmoji {
+    float:right;
 }
