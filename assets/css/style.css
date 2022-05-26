@@ -68,3 +68,14 @@ footer {
 .bitmoji {
     float:right;
 }
+
+.handyman {
+    background-color: rgba(10, 99, 187, 0.572);
+    color: rgb(236, 238, 245);
+    border-bottom: 20px;
+    border-color: rgb(236, 238, 245);
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
