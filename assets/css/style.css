@@ -139,7 +139,7 @@ Header h1 {
   }
 
   #projects {
-    
+    background-image: url('../images/brickies-baby.jpeg');
   }
   
  #projects h2 {
@@ -183,6 +183,3 @@ Header h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
  }
 
-.cards-deck {
-  display:inline;
-}
