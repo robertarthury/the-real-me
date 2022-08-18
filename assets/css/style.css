@@ -13,7 +13,6 @@
   }
 
   body {
-    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -45,7 +44,6 @@ header h1 {
 nav a:hover {
     text-shadow: 10px;
     color:gray;
-
 }
 
 Header h1 {
@@ -182,4 +180,6 @@ Header h1 {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
  }
-
+ .flex-row {
+  display:flex;
+}
