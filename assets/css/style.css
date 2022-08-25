@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #fce138;
-    --secondary-color: #024e76;
+    --secondary-color: black;
     --tertiary-color: #39a6b2;
     --primary-color-transparent: rgba(252,225,56, 0.8);
     --secondary-color-transparent: rgba(2, 78, 118, 0.8);
@@ -184,16 +184,27 @@ Header h1 {
   display:flex;
 }
 
-.hover:hover {
+.hover:hover  {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   text-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+.hover:active  {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* MEDIA QUERY FOR mobile */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative
+    
   }
 
   header h1 {
@@ -228,25 +239,12 @@ Header h1 {
     font-size: 15px;
     color: var(--primary-color);
     line-height: 1.2;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 5px 10px 15px rgba(0,0,0,0.5);
   }
   .hero-cta p {
     font-size: 12px;
-    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-shadow: 5px 10px 15px rgba(0,0,0,0.5);
     text-align: left;
   }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-    /* this will be applied on any screen between 768px and 575px */
-
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-  header h1 {
-    /* this will be applied on any screen smaller than 575px */
-   
-  }
-}
